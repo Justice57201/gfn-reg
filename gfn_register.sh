@@ -43,4 +43,5 @@ echo "Backup created."
 # Reload IAX
 asterisk -rx "iax2 reload" 2>/dev/null
 
-echo "Done."
+echo
+echo "Registration Complete."
