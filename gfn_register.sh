@@ -15,7 +15,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 read -p "Enter Node Number: " NODE
-read -s -p "Enter Registration Password: " PASS
+read -p "Enter Registration Password: " PASS
 echo
 
 REGSTRING="register => ${NODE}:${PASS}@register.gmrsfreedomnation.com"
