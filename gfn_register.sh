@@ -38,7 +38,6 @@ cp "$IAXCONF" "${IAXCONF}.bak.$(date +%Y%m%d-%H%M%S)"
 # Insert at line 55
 sed -i "55i $REGSTRING" "$IAXCONF"
 
-echo "Registration added to line 55 of $IAXCONF"
 echo "Backup created."
 
 # Reload IAX
