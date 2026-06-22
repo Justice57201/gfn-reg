@@ -17,6 +17,9 @@ fi
 stty sane
 stty echo
 
+echo 
+echo "GMRS Freedom Nation Registration"
+echo 
 read -p "Enter Node Number: " NODE
 read -p "Enter Registration Password: " PASS
 echo
@@ -25,6 +28,7 @@ REGSTRING="register => ${NODE}:${PASS}@register.gmrsfreedomnation.com"
 
 echo
 echo "Registration string:"
+echo
 echo "$REGSTRING"
 echo
 
