@@ -14,6 +14,9 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
+stty sane
+stty echo
+
 read -p "Enter Node Number: " NODE
 read -p "Enter Registration Password: " PASS
 echo
