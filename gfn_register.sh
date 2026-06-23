@@ -26,12 +26,6 @@ echo
 
 REGSTRING="register => ${NODE}:${PASS}@register.gmrsfreedomnation.com"
 
-echo
-echo "Registration string:"
-echo
-echo "$REGSTRING"
-echo
-
 # Backup
 cp "$IAXCONF" "${IAXCONF}.bak.$(date +%Y%m%d-%H%M%S)"
 
